@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#div1, #div2{
+    width: 50%;
+}
+
+#links{
+    display: inline-block;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(124, 118, 118);
+    width: 25%;
+    background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+    #login{
+        width: 80%;
+    }
+    #div1, #div2{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    #login{
+        width: 80%;
+    }
+    #div1, #div2{
+        width: 100%;
+    }
+}
+
+#botao{
+    position: fixed;
+    width: 70px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    border-radius: 50px;
+    z-index: 1;
+    margin-top: 16px;
+}
+
+#link{
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card{
+    margin: 15px;
+    background-color:white;
+    color: black;
+}
+
+.form-select{
+    width: 50%;
+}
+
+h5{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+p{
+  color: rgb(0, 0, 0);
+ 
+}
+
+.conteudo{
+    flex-grow: 1;  
+}
+
+footer{
+    background-color: #F8F9FB;
+    width: 100%;
+}
+
+hr{
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    color: white;
+}
+
+.titulo2{
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo1{
+    text-align: center;
+    padding: 20px;
+    padding-top: 75px;
+}
+
+
+.tituloEditor,textarea,select{
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    width: 100%;
+}
